@@ -10,14 +10,19 @@ html,body{
 }
 
 #main{
-    height:10%;
+    height:100%;
     width:100%;
     background-color: aquamarine;
 
 }
 
+#header{
+    height:10%;
+    width:100%;
+    background-color:aquamarine;
+}
+
 #page1{
-    top:10%;
     position: relative;
     height:90%;
     width: 100%;
