@@ -27,6 +27,11 @@ html,body{
     height:90%;
     width: 100%;
     background-color:salmon;
+}
 
+#page2{
+    height:90%;
+    width:100%;
+    background-color: darkgray;
 
 }
