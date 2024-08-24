@@ -13,6 +13,7 @@ html,body{
     height:100%;
     width:100%;
     background-color: aquamarine;
+    overflow: hidden;
 
 }
 
@@ -21,19 +22,24 @@ html,body{
     width:100%;
     background-color:aquamarine;
     position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
     
 }
 
-#page1{
-    position: relative;
-    height:90%;
+#page1, #page2 {
     width: 100%;
-    background-color:salmon;
+    background-color: salmon;
+    padding-top: 10%; /* Ensures content starts below the header */
 }
 
-#page2{
-    height:90%;
-    width:100%;
-    background-color: darkgray;
+#page1 {
+    height: 90vh; /* vh units ensure height is relative to viewport */
+    background-color: salmon;
+}
 
+#page2 {
+    height: 90vh;
+    background-color: darkgray;
 }
