@@ -28,6 +28,14 @@ html,body{
     
 }
 
+#fakeHeader{
+    height:10%;
+    width:100%;
+    background-color: yellow;
+    position: relative;
+    z-index: 5;
+}
+
 #page1, #page2 {
     width: 100%;
     background-color: salmon;
